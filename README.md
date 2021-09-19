@@ -1,6 +1,5 @@
 # JP-Subtitles-Index
 
+A (depreciated) experimental tool for creating a .identity file (index map) of the JP-Subtitles Repo fork.
 
-A index map of the JP-Subtitles Repo fork and the project used to generate the .identity file.
-
-You can update the file if you change the folder name. This allows developers to reference the folders in a non-destructible way for data analysis etc. 
+No longer used after I decided to add the fuctionality to the .clabel file format to reduce the need for a extra file in a data analysis project.
