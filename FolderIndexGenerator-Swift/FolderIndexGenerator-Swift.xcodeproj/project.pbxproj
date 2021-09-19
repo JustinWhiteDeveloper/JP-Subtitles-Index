@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1711EE2826E18AA900FCF61F /* FolderIndexGenerator_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711EE2726E18AA900FCF61F /* FolderIndexGenerator_SwiftApp.swift */; };
+		1711EE2A26E18AA900FCF61F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711EE2926E18AA900FCF61F /* ContentView.swift */; };
+		1711EE2C26E18AAC00FCF61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1711EE2B26E18AAC00FCF61F /* Assets.xcassets */; };
+		1711EE2F26E18AAC00FCF61F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1711EE2E26E18AAC00FCF61F /* Preview Assets.xcassets */; };
+		1711EE3B26E18AAD00FCF61F /* IdentityFileWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711EE3A26E18AAD00FCF61F /* IdentityFileWriterTests.swift */; };
+		1711EE4626E18AAD00FCF61F /* FolderIndexGenerator_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711EE4526E18AAD00FCF61F /* FolderIndexGenerator_SwiftUITests.swift */; };
+		1711EE5426E18C1F00FCF61F /* FolderSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711EE5326E18C1F00FCF61F /* FolderSelector.swift */; };
+		1711EE5726E1916900FCF61F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1711EE5926E1916900FCF61F /* Localizable.strings */; };
+		1748FEBA26E198E20099C9FF /* IdentityFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748FEB926E198E20099C9FF /* IdentityFileWriter.swift */; };
+		1748FEBE26E1A0B10099C9FF /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748FEBD26E1A0B10099C9FF /* Identity.swift */; };
+		1748FEC026E1A1110099C9FF /* IdentitySourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748FEBF26E1A1110099C9FF /* IdentitySourceTests.swift */; };
+		1748FEC226E1A5190099C9FF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748FEC126E1A5190099C9FF /* Strings.swift */; };
+		1748FEC726E1A7DF0099C9FF /* FolderA in Resources */ = {isa = PBXBuildFile; fileRef = 1748FEC526E1A7DF0099C9FF /* FolderA */; };
+		1748FECA26E1A8020099C9FF /* FolderB in Resources */ = {isa = PBXBuildFile; fileRef = 1748FEC926E1A8020099C9FF /* FolderB */; };
+		1748FECC26E1ADDE0099C9FF /* .test in Resources */ = {isa = PBXBuildFile; fileRef = 1748FECB26E1ADDE0099C9FF /* .test */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1711EE3726E18AAD00FCF61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1711EE1C26E18AA900FCF61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1711EE2326E18AA900FCF61F;
+			remoteInfo = "FolderIndexGenerator-Swift";
+		};
+		1711EE4226E18AAD00FCF61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1711EE1C26E18AA900FCF61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1711EE2326E18AA900FCF61F;
+			remoteInfo = "FolderIndexGenerator-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1711EE2426E18AA900FCF61F /* Index Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Index Generator.app"; path = "FolderIndexGenerator-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711EE2726E18AA900FCF61F /* FolderIndexGenerator_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderIndexGenerator_SwiftApp.swift; sourceTree = "<group>"; };
+		1711EE2926E18AA900FCF61F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1711EE2B26E18AAC00FCF61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1711EE2E26E18AAC00FCF61F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1711EE3026E18AAC00FCF61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1711EE3126E18AAC00FCF61F /* FolderIndexGenerator_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolderIndexGenerator_Swift.entitlements; sourceTree = "<group>"; };
+		1711EE3626E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FolderIndexGenerator-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711EE3A26E18AAD00FCF61F /* IdentityFileWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityFileWriterTests.swift; sourceTree = "<group>"; };
+		1711EE3C26E18AAD00FCF61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1711EE4126E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FolderIndexGenerator-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711EE4526E18AAD00FCF61F /* FolderIndexGenerator_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderIndexGenerator_SwiftUITests.swift; sourceTree = "<group>"; };
+		1711EE4726E18AAD00FCF61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1711EE5326E18C1F00FCF61F /* FolderSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSelector.swift; sourceTree = "<group>"; };
+		1711EE5826E1916900FCF61F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1748FEB926E198E20099C9FF /* IdentityFileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityFileWriter.swift; sourceTree = "<group>"; };
+		1748FEBD26E1A0B10099C9FF /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		1748FEBF26E1A1110099C9FF /* IdentitySourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentitySourceTests.swift; sourceTree = "<group>"; };
+		1748FEC126E1A5190099C9FF /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		1748FEC526E1A7DF0099C9FF /* FolderA */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FolderA; sourceTree = "<group>"; };
+		1748FEC926E1A8020099C9FF /* FolderB */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FolderB; sourceTree = "<group>"; };
+		1748FECB26E1ADDE0099C9FF /* .test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .test; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1711EE2126E18AA900FCF61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3326E18AAD00FCF61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3E26E18AAD00FCF61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1711EE1B26E18AA900FCF61F = {
+			isa = PBXGroup;
+			children = (
+				1711EE2626E18AA900FCF61F /* FolderIndexGenerator-Swift */,
+				1711EE3926E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests */,
+				1711EE4426E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests */,
+				1711EE2526E18AA900FCF61F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1711EE2526E18AA900FCF61F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1711EE2426E18AA900FCF61F /* Index Generator.app */,
+				1711EE3626E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests.xctest */,
+				1711EE4126E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1711EE2626E18AA900FCF61F /* FolderIndexGenerator-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1748FEB726E194AF0099C9FF /* Logic */,
+				1711EE2726E18AA900FCF61F /* FolderIndexGenerator_SwiftApp.swift */,
+				1711EE2926E18AA900FCF61F /* ContentView.swift */,
+				1711EE5326E18C1F00FCF61F /* FolderSelector.swift */,
+				1711EE2B26E18AAC00FCF61F /* Assets.xcassets */,
+				1711EE5926E1916900FCF61F /* Localizable.strings */,
+				1711EE3026E18AAC00FCF61F /* Info.plist */,
+				1711EE3126E18AAC00FCF61F /* FolderIndexGenerator_Swift.entitlements */,
+				1711EE2D26E18AAC00FCF61F /* Preview Content */,
+				1748FEC126E1A5190099C9FF /* Strings.swift */,
+			);
+			path = "FolderIndexGenerator-Swift";
+			sourceTree = "<group>";
+		};
+		1711EE2D26E18AAC00FCF61F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1711EE2E26E18AAC00FCF61F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1711EE3926E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1748FEB826E196C90099C9FF /* Examples */,
+				1711EE3A26E18AAD00FCF61F /* IdentityFileWriterTests.swift */,
+				1748FEBF26E1A1110099C9FF /* IdentitySourceTests.swift */,
+				1711EE3C26E18AAD00FCF61F /* Info.plist */,
+			);
+			path = "FolderIndexGenerator-SwiftTests";
+			sourceTree = "<group>";
+		};
+		1711EE4426E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1711EE4526E18AAD00FCF61F /* FolderIndexGenerator_SwiftUITests.swift */,
+				1711EE4726E18AAD00FCF61F /* Info.plist */,
+			);
+			path = "FolderIndexGenerator-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		1748FEB726E194AF0099C9FF /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1748FEB926E198E20099C9FF /* IdentityFileWriter.swift */,
+				1748FEBD26E1A0B10099C9FF /* Identity.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		1748FEB826E196C90099C9FF /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				1748FECB26E1ADDE0099C9FF /* .test */,
+				1748FEC526E1A7DF0099C9FF /* FolderA */,
+				1748FEC926E1A8020099C9FF /* FolderB */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1711EE2326E18AA900FCF61F /* FolderIndexGenerator-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1711EE4A26E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-Swift" */;
+			buildPhases = (
+				1711EE2026E18AA900FCF61F /* Sources */,
+				1711EE2126E18AA900FCF61F /* Frameworks */,
+				1711EE2226E18AA900FCF61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FolderIndexGenerator-Swift";
+			productName = "FolderIndexGenerator-Swift";
+			productReference = 1711EE2426E18AA900FCF61F /* Index Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1711EE3526E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1711EE4D26E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-SwiftTests" */;
+			buildPhases = (
+				1711EE3226E18AAD00FCF61F /* Sources */,
+				1711EE3326E18AAD00FCF61F /* Frameworks */,
+				1711EE3426E18AAD00FCF61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1711EE3826E18AAD00FCF61F /* PBXTargetDependency */,
+			);
+			name = "FolderIndexGenerator-SwiftTests";
+			productName = "FolderIndexGenerator-SwiftTests";
+			productReference = 1711EE3626E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1711EE4026E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1711EE5026E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-SwiftUITests" */;
+			buildPhases = (
+				1711EE3D26E18AAD00FCF61F /* Sources */,
+				1711EE3E26E18AAD00FCF61F /* Frameworks */,
+				1711EE3F26E18AAD00FCF61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1711EE4326E18AAD00FCF61F /* PBXTargetDependency */,
+			);
+			name = "FolderIndexGenerator-SwiftUITests";
+			productName = "FolderIndexGenerator-SwiftUITests";
+			productReference = 1711EE4126E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1711EE1C26E18AA900FCF61F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1711EE2326E18AA900FCF61F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1711EE3526E18AAD00FCF61F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1711EE2326E18AA900FCF61F;
+					};
+					1711EE4026E18AAD00FCF61F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1711EE2326E18AA900FCF61F;
+					};
+				};
+			};
+			buildConfigurationList = 1711EE1F26E18AA900FCF61F /* Build configuration list for PBXProject "FolderIndexGenerator-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1711EE1B26E18AA900FCF61F;
+			productRefGroup = 1711EE2526E18AA900FCF61F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1711EE2326E18AA900FCF61F /* FolderIndexGenerator-Swift */,
+				1711EE3526E18AAD00FCF61F /* FolderIndexGenerator-SwiftTests */,
+				1711EE4026E18AAD00FCF61F /* FolderIndexGenerator-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1711EE2226E18AA900FCF61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1711EE2F26E18AAC00FCF61F /* Preview Assets.xcassets in Resources */,
+				1711EE5726E1916900FCF61F /* Localizable.strings in Resources */,
+				1711EE2C26E18AAC00FCF61F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3426E18AAD00FCF61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1748FECC26E1ADDE0099C9FF /* .test in Resources */,
+				1748FEC726E1A7DF0099C9FF /* FolderA in Resources */,
+				1748FECA26E1A8020099C9FF /* FolderB in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3F26E18AAD00FCF61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1711EE2026E18AA900FCF61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1711EE2A26E18AA900FCF61F /* ContentView.swift in Sources */,
+				1711EE5426E18C1F00FCF61F /* FolderSelector.swift in Sources */,
+				1748FEBA26E198E20099C9FF /* IdentityFileWriter.swift in Sources */,
+				1748FEBE26E1A0B10099C9FF /* Identity.swift in Sources */,
+				1748FEC226E1A5190099C9FF /* Strings.swift in Sources */,
+				1711EE2826E18AA900FCF61F /* FolderIndexGenerator_SwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3226E18AAD00FCF61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1748FEC026E1A1110099C9FF /* IdentitySourceTests.swift in Sources */,
+				1711EE3B26E18AAD00FCF61F /* IdentityFileWriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1711EE3D26E18AAD00FCF61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1711EE4626E18AAD00FCF61F /* FolderIndexGenerator_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1711EE3826E18AAD00FCF61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1711EE2326E18AA900FCF61F /* FolderIndexGenerator-Swift */;
+			targetProxy = 1711EE3726E18AAD00FCF61F /* PBXContainerItemProxy */;
+		};
+		1711EE4326E18AAD00FCF61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1711EE2326E18AA900FCF61F /* FolderIndexGenerator-Swift */;
+			targetProxy = 1711EE4226E18AAD00FCF61F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1711EE5926E1916900FCF61F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1711EE5826E1916900FCF61F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1711EE4826E18AAD00FCF61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1711EE4926E18AAD00FCF61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1711EE4B26E18AAD00FCF61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FolderIndexGenerator-Swift/FolderIndexGenerator_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"FolderIndexGenerator-Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1711EE4C26E18AAD00FCF61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FolderIndexGenerator-Swift/FolderIndexGenerator_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"FolderIndexGenerator-Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1711EE4E26E18AAD00FCF61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderIndexGenerator-Swift.app/Contents/MacOS/FolderIndexGenerator-Swift";
+			};
+			name = Debug;
+		};
+		1711EE4F26E18AAD00FCF61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderIndexGenerator-Swift.app/Contents/MacOS/FolderIndexGenerator-Swift";
+			};
+			name = Release;
+		};
+		1711EE5126E18AAD00FCF61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FolderIndexGenerator-Swift";
+			};
+			name = Debug;
+		};
+		1711EE5226E18AAD00FCF61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FolderIndexGenerator-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinwhite.FolderIndexGenerator-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FolderIndexGenerator-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1711EE1F26E18AA900FCF61F /* Build configuration list for PBXProject "FolderIndexGenerator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1711EE4826E18AAD00FCF61F /* Debug */,
+				1711EE4926E18AAD00FCF61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1711EE4A26E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1711EE4B26E18AAD00FCF61F /* Debug */,
+				1711EE4C26E18AAD00FCF61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1711EE4D26E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1711EE4E26E18AAD00FCF61F /* Debug */,
+				1711EE4F26E18AAD00FCF61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1711EE5026E18AAD00FCF61F /* Build configuration list for PBXNativeTarget "FolderIndexGenerator-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1711EE5126E18AAD00FCF61F /* Debug */,
+				1711EE5226E18AAD00FCF61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1711EE1C26E18AA900FCF61F /* Project object */;
+}
